@@ -5,8 +5,8 @@ from fastapi import APIRouter, Depends
 import models
 # ainoastaan tämä import pitää vaihtaa, jos haluat vaihtaa datalähdettä
 
-# ota tämä pois kommenteista (tätä varten pitää tietenkin olla tietokanta)
-#from services.sqlalchemy_todos import TodosService
+# ota tämä pois kommenteista (tätä varten pitää tietenkin olla tietokanta, jonka dumppi löytyy tästä reposta)
+# from services.sqlalchemy_todos import TodosService
 
 
 # kommentoi tämä ja kato mitä tapahtuu
