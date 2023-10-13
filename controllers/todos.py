@@ -3,7 +3,7 @@ from typing import Annotated
 from fastapi import APIRouter, Depends
 
 import models
-# ainoastaan tämä import ja return get_servicestä pitää vaihtaa, jos haluat vaihtaa datalähdettä
+# ainoastaan tämä import pitää vaihtaa, jos haluat vaihtaa datalähdettä
 
 # ota tämä pois kommenteista (tätä varten pitää tietenkin olla tietokanta)
 #from services.sqlalchemy_todos import TodosService
