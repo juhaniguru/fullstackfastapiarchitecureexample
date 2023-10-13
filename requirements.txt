@@ -1,0 +1,4 @@
+fastapi
+uvicorn[starndard]
+mysql-connector-python
+requests
